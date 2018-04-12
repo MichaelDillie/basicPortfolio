@@ -53,6 +53,7 @@ nav {
 /* Portfolio Section */
 section {
     width: 60%;
+    height: 700px;
     padding: 30px 20px;
     background: #fff;
     margin: 0 auto;
@@ -68,30 +69,59 @@ hr {
     margin: 20px 0px;
 }
 /* Images */
-.pic-1 {
+#pic-1 {
     width: 200px;
     height: 200px;
     background-image: url("../images/pic1.jpg");
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
 }
-.pic-2 {
+#pic-2 {
     width: 200px;
     height: 200px;
     background-image: url("../images/pic2.jpg");
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
 }
-.pic-3 {
+#pic-3 {
     width: 200px;
     height: 200px;
     background-image: url("../images/pic3.jpg");
+    clear: both;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
 }
-.pic-4 {
+#pic-4 {
     width: 200px;
     height: 200px;
     background-image: url("../images/pic4.jpg");
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
 }
-.pic-5 {
+#pic-5 {
     width: 200px;
     height: 200px;
     background-image: url("../images/pic5.jpg");
+    clear: both;
+    float: left;
+    margin-right: 40px;
+}
+.picture {
+
+}
+.title {
+    height: 50px;
+    background: #4aaaa5;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    top: 135px;
+    font-size: 20px;
+    color: #fff;
 }
 /* Footer */
 footer {
